@@ -129,7 +129,12 @@
 
 .purchase-button:hover .button-text {
     color: hsl(0, 0%, 100%);
-    fill: hsl(158, 36%, 37%);
+}
+
+.purchase-button:focus{
+    box-shadow: 6px 5px 6px -2px rgba(0,0,0,0.57);
+-webkit-box-shadow: 6px 5px 6px -2px rgba(0,0,0,0.57);
+-moz-box-shadow: 6px 5px 6px -2px rgba(0,0,0,0.57);
 }
 
 
