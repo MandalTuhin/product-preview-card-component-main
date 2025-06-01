@@ -24,7 +24,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-using-mobile-first-workflow-ES2taARNL7)
 - Live Site URL: [Live Site](https://product-card-demo-tm.netlify.app/)
 
 ## My process
