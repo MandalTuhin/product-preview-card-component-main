@@ -20,7 +20,16 @@
 
   <div class="container">
     <div class="wrapper">
-      <div class="product-img"><img src="images/image-product-mobile.jpg" alt="Image of a Perfume" height="auto" width="100%"></div>
+      <div class="product-img">
+        <picture>
+          <!-- Desktop image -->
+          <source srcset="images/image-product-desktop.jpg" media="(min-width: 768px)" class="desktop-img">
+  
+          <!-- Mobile image (fallback and default) -->
+          <img src="images/image-product-mobile.jpg" alt="Product preview" height="auto" width="100%"/>
+        </picture>
+
+      </div>
       <div class="product-details">
         <div class="product-type">PERFUME</div>
         <div class="product-name">Gabrielle Essence Eau De Parfum</div>
